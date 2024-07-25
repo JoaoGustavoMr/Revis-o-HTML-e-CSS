@@ -1,0 +1,108 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>O que é HTML?</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" id="nav1">Página Inicial</a></li>
+                <li><a href="html.html">HTML</a></li>
+                <li><a href="css.html" id="nav2">CSS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="intro">
+            <h1>O que é HTML?</h1>
+            <h2 id="tituloinicio">Introdução ao HTML</h2>
+            <div id="textoinicio">
+                <p>A Linguagem de Marcação de Hipertexto (HTML) é uma linguagem de computador que compõe a maior parte das páginas da internet e dos aplicativos online. Um hipertexto é um texto usado para fazer referência a outros textos, enquanto uma linguagem de marcação é composta por uma série de marcações que dizem para os servidores da web qual é o estilo e a estrutura de um documento.</p>
+                <p>O HTML não é considerado uma linguagem de programação, já que ele não pode criar funcionalidades dinâmicas. Ao invés disso, com o HTML, os usuários podem criar e estruturar seções, parágrafos e links usando elementos, tags e atributos.</p>
+            </div>
+        </section>
+
+        <section class="htmltext">
+            <h2>Tags HTML Básicas</h2>
+
+            <div>
+                <h3>Páragrafo &lt;p&gt;</h3>
+                <p>A tag &lt;p&gt; é usada para definir parágrafos de texto.</p>
+                <p>Exemplo de Parágrafo:</p>
+                <p>&lt;p&gt; O meu nome é João Gustavo &lt;/p&gt;</p>
+            </div>
+
+            <div>
+                <br>
+                <h3>Tags para Listas &lt;li&gt;, &lt;ul&gt;, &lt;ol&gt;</h3>
+                <p>Existem dois tipos principais de listas: não ordenadas &lt;ul&gt; e ordenadas &lt;ol&gt;. Os itens das listas são definidos com a tag &lt;li&gt;.</p>
+                <h4>Exemplo de lista não ordenada:</h4>
+                <ul>
+                    <li>Futebol</li>
+                    <li>Basquete</li>
+                    <li>Vôlei</li>
+                </ul>
+
+                <h4>Exemplo de lista ordenada:</h4>
+                <ol>
+                    <li>São Paulo</li>
+                    <li>Flamengo</li>
+                    <li>Palmeiras</li>
+                </ol>
+            </div>
+
+            <div>
+                <br>
+                <h3>Tags de Tabela &lt;table&gt;, &lt;tr&gt;, &lt;th&gt;, &lt;td&gt;</h3>
+                <p>&lt;table&gt;: A tag &lt;table&gt; é usada para criar uma tabela em HTML.<br>
+                &lt;tr&gt;: A tag &lt;tr&gt; define uma linha em uma tabela.<br>
+                &lt;th&gt;: A tag &lt;th&gt; define uma célula de cabeçalho em uma tabela.<br>
+                &lt;td&gt;: A tag &lt;td&gt; define uma célula padrão em uma tabela.</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nome do Filme</th>
+                            <th>Categoria</th>
+                            <th>Ano de Lançamento</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Jurassic Park</td>
+                            <td>Ficção Científica</td>
+                            <td>1993</td>
+                        </tr>
+                        <tr>
+                            <td>Vingadores Ultimato</td>
+                            <td>Ficção Científica e Ação</td>
+                            <td>2019</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div>
+                <br>
+                <h3>Tags de Imagem &lt;img&gt;</h3>
+                <p>A tag &lt;img&gt; apresenta na tela do navegador uma imagem, carregada a partir de um arquivo externo ao código HTML.</p>
+                <img src="img/ti.jpg" alt="Descrição da Imagem">
+            </div>
+
+            <div>
+                <br>
+                <h3>Tag para âncora de hyperlink &lt;a&gt;</h3>
+                <p>O elemento &lt;a&gt; em HTML (ou elemento âncora), com o atributo href cria-se um hiperlink para páginas web, arquivos, endereços de emails, ligações na mesma página ou endereços na URL. O conteúdo dentro de cada &lt;a&gt; precisará indicar o destino do link.</p>
+                <p>Exemplo de Tag &lt;a&gt;:</p>
+                <p><a href="https://www.google.com" target="_blank">Visite o site do Google</a></p>
+                <p>Nesse caso a frase "Visite o site do Google" é um hiperlink para essa página em destaque.</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

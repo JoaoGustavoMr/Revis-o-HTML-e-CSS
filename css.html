@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <title>O que é CSS?</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <ul>
+                    <a href="index.html"><li>Página Inicial</li></a>
+                    <a href="html.html"><li>HTML</li></a>
+                    <a href="css.html"><li>CSS</li></a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="intro">
+            <div>
+                <h1>O que é CSS?</h1>
+            </div>
+            <div>
+                <h2 id="tituloinicio">
+                    Introdução ao CSS
+                </h2>
+                <div id="textoinicio">
+                    <p>
+                        CSS (Cascading Style Sheets) é uma linguagem usada para descrever a apresentação de documentos escritos em HTML ou XML. Ela define como os elementos devem ser exibidos em uma página web, permitindo a separação entre o conteúdo e o design visual, como cores, fontes e layout. CSS facilita a criação de layouts e estilos consistentes em todo o site, e possibilita a personalização visual sem alterar o conteúdo HTML.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="htmltext">
+            <div class="csstext">
+                <div id="titulo1">
+                    <h2>Seletores</h2>
+                    <p><b>Seletores de Tag:</b> Selecionam elementos HTML com base no nome da tag.</p>
+                    <p><b>Exemplo:</b> p aplica estilos a todos os elementos &lt;p&gt; do HTML.</p>
+                    <h3>p { <br> color: blue; <br> } </h3>
+                    <p><b>Seletores de Classe:</b> Selecionam elementos com um atributo class específico.</p>
+                    <p><b>Exemplo:</b> .highlight aplica estilos a todos os elementos com class="highlight".</p>
+                    <h3>.highlight { <br> background-color: yellow; <br> } </h3>
+                    <p><b>Seletores de ID:</b> Selecionam elementos HTML com base no nome da tag.</p>
+                    <p><b>Exemplo:</b> #header aplica estilos ao elemento com id="header".</p>
+                    <h3>#main-header { <br> font-size: 24px; <br> color: green; <br> } </h3>
+                </div>
+                <div> 
+                    <h2 class="propriedadesh2">Propriedades e Valores</h2>
+                    <p>
+                        <b>Propriedades:</b> Definem os estilos que você deseja aplicar (ex.: color, font-size, margin).
+                    </p>
+                    <p>
+                        <b>Valores:</b> Especificam o valor para a propriedade (ex.: blue, 16px, 10px).
+                    </p>
+                    <h4 class="ex1">Exemplo de aplicação de Propriedades e Valores:</h4>
+                    <img src="img/regras-css.jpg" alt="Exemplo de Regras CSS">
+                </div>
+                <div>
+                    <h2 class="propriedadesh2">Classes e IDs</h2>
+                    <p>
+                        <b>Classes:</b> Usadas para aplicar o mesmo estilo a vários elementos. Iniciam com um ponto (.) e podem ser reutilizadas.
+                    </p>
+                    <p>
+                        <b>IDs:</b> Usados para aplicar estilos a um único elemento. Iniciam com um # e devem ser únicos por página.
+                    </p>
+                    <h4 class="ex1">Exemplo de Classes e IDs:</h4>
+                    <p><b>Exemplo:</b> .button aplica estilos a todos os elementos com class="button".</p>
+                    <p><b>Exemplo:</b> #header aplica estilos ao elemento com id="header".</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
+
